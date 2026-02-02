@@ -48,12 +48,11 @@ Predicting Bank Customer Churn: Data-Driven Insights and Strategies
 
 1. The Problem: Why Churn Matters
 
-2.  
 In the banking sector, retaining a customer is significantly cheaper than acquiring a new one. This project analyzes a dataset of 10,000 customers to identify the "red flags" that signal a customer is about to leave (churn).
+
 3. Key Insights from Exploratory Data Analysis (EDA)
 
-4. 
-Your visualizations revealed several critical patterns:
+My visualizations revealed several critical patterns:
 •	The Age Factor: Older customers show a higher tendency to churn. This might suggest that the bank's digital products or loyalty rewards are better suited for younger demographics.
 •	Geography Matters: Germany has a significantly higher churn rate compared to France and Spain. This is a huge finding—it suggests a need for a deep dive into regional competition or service quality in Germany.
 •	Product Overload: Interestingly, customers with 3 or 4 products have extremely high churn. This often indicates "forced" cross-selling where customers feel overwhelmed or dissatisfied with the bundled services.
@@ -61,14 +60,14 @@ Your visualizations revealed several critical patterns:
  
 5. The Modeling Approach
 
-6. 
-We tested two primary models to predict the probability of a customer exiting:
+I tested two primary models to predict the probability of a customer exiting:
 1.	Logistic Regression: A great baseline, achieving an AUC of 0.777.
 2.	Random Forest: Our top performer with an AUC of 0.855.
-3.	
+
 The Random Forest model is superior here because it captures the non-linear relationships in the data (like the complex interaction between the number of products and churn).
+
 4. Strategic Recommendations
-5. 
+
 Based on the data, here is how the bank can reduce churn:
 •	Targeted Engagement for Inactive Members: Launch re-activation campaigns (e.g., special interest rates or personalized offers) specifically for those flagged as "Inactive."
 •	Review German Operations: Investigate why German customers are unhappy. Is it higher fees? Local competitors? A localized survey is needed.
